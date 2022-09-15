@@ -1,4 +1,4 @@
-
+```.py
 Sum of three numbers
 
 This program reads two numbers and prints their sum:
