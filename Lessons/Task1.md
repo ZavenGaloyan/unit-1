@@ -52,8 +52,9 @@ Im not sure how to do it
 
 [HL] Task 4: Given a list of names of students in the format lastname, firstname, create a program that assigns an email address and a locker to each 
 student and savesthe results in a file in the format lastname, firstname, email, locker.
-[Evidence for code](TASK 1 out of 2.jpg     )
-[](TASK 2 out of 2.jpg)
+[Evidence for code](TASK 1 out of 2.jpg  )
+[Evidence for code](TASK 2 out of 2.jpg)
+
 ```.py
 import random
 x = random.randint(1,2400)
