@@ -27,7 +27,7 @@ Justify the tools/structure of your solution
 2. The electronic ledger display the basic description of the cyrptocurrency selected.
 3. The electronic ledger allows to enter, withdraw and record transactions.
 4. The electronic ledger will display past trasactions
-5. The electronic ledger should show (to be defined) statistisc some of which may be in a graph format.
+5. The electronic ledger should show (to be defined) statistisc some of which may be in a bar graph terminal format.
 6. The electronic ledger will have password to enter this 
 
 # Criteria B: Design
