@@ -41,5 +41,5 @@ Justify the tools/structure of your solution
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
 | 1       | Create Success Criteria                                         | To have a clear idea of what is needed for to have a successful project                        | 10min         | Sep 24                 | B         |
-3|---------------|------------------------|-----------|
+3|10min|Sept 26|passsword|
 | 2       | Create Success Criteria                                        |                      | 45min         | Sep 24                 | B         |
