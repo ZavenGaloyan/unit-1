@@ -18,7 +18,6 @@ I will to design and make a electronic ledger for Ms. Sato. The dgital crypto le
 
 ** add a description of your coin and citation **
 
-| Zaven     | Ethereum  |
 
 Justify the tools/structure of your solution
 
@@ -33,7 +32,7 @@ Justify the tools/structure of your solution
 # Criteria B: Design
 
 ## System Diagram
-
+![](https://github.com/ZavenGaloyan/unit-1/blob/main/Untitled%20Diagram.jpg)
 ## Flow Diagrams
 
 
