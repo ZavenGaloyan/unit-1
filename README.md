@@ -14,7 +14,7 @@ Apart for this requirements, Ms Sato is open to explore a cryptocurrency selecte
 ## Proposed Solution
 
 Design statement:
-I will to design and make a electronic ledger for a client who is ———. The ——– will about ———— and is constructed using the software ———. It will take  ———- to make and will be evaluated according to the criteria ———.
+I will to design and make a electronic ledger for Ms. Sato. The dgital crypto ledger will use ETH or ethernium crypto currency and is constructed using the software Python . It will take a few weeks to make and will be evaluated according to the criteria listed below.
 
 ** add a description of your coin and citation **
 
@@ -41,3 +41,5 @@ Justify the tools/structure of your solution
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
 | 1       | Create Success Criteria                                         | To have a clear idea of what is needed for to have a successful project                        | 10min         | Sep 24                 | B         |
+|---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
+| 2       | Create Success Criteria                                         |                      | 45min         | Sep 24                 | B         |
