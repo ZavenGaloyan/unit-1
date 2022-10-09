@@ -27,14 +27,20 @@ Justify the tools/structure of your solution
 1. The electronic ledger is a text-based software (Runs in the Terminal).
 2. The electronic ledger display the basic description of the cyrptocurrency selected.
 3. The electronic ledger allows to enter, withdraw and record transactions.
-4. The electronic ledger will display past trasactions
-5. The electronic ledger should show (to be defined) statistisc some of which may be in a bar graph terminal format.
+4. The electronic ledger will display past transactions within a given month and year
+5. The electronic ledger will show a graph on the total balence in a the ledger for every month of the year.
 6. The electronic ledger will have password to enter this 
 ## Record of Test Plan
 | Description | test type                                                |                                                                                                 | Inputs | Outputs | |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
-| Login & Menu       | Unit test                                         |                         | Input correct password to login        |If the inputed password matches what is stored in the password.csv file. It will move the user to the menu of options: if the passoword is incorrect it will allow another antempt to login                  |          |
-
+| Login & Menu       | Unit test                                         |                         | Input correct password to login        | It will move the user to a the menu of options when the correct password is enters                 |          |
+| Basic description of crypto currency       | Unit test                                         |                         | Input the number 1 in menu        |When number 1 is entered a basic description of the crypto currency is displayed                  |          |
+| To enter, withdraw and record transactions       | Unit test                                         |                         | Input the number 2 in the menu then choose wheter to enter or withdraw a transaction by choosing 1 or 2        |Once 2 is selected a a menu for transactions pops up from which the user can choose to enter or withdraw a transation. Each of these options will present a date and amount which is then transfered to a csv file taht keeps the data                 |          |
+| Display past transactions within a given month and year       | Unit test                                         |                         | Input the number 3 in menu       |The user will fill in the month and year from which they would like to see past transactions from. When these are entered, All the transactions within these parameters will be printed in the terminal                 |          |
+| Display a graph on the total balence in a the ledger for every month of the year      | Unit test                                         |                         | Input the number 4 into the menu        |When the number 4 is entered into the menu a graph on the total balence in a the ledger for every month of the year will be printed in the terminal                |          |
+| Password validation       | Usability test                                         |                         | Input correct password to login        |If the inputed password matches what is stored in the password.csv file. It will move the user to the menu of options: if the passoword is incorrect it will allow another antempt to login                  |          |
+| Date validation       | Usability test                                         |                         | Input a date in a given format (month/day/year)        |This will check if the given values are eligable and if the month and days written math. For example if the 31 of Feb is written the terminal will explain the issue and allow for another attempt. Once the nessisary requirements are met.It will then proceeds to the next stage                  |          |
+| Numerical validation       | Usability test                                         |                         | Input a integer with in a given range       |If a letter,symbol, or number that is not a posative integer is entered it will allow for antempts to be made until the nessisary requirements are met.It will then proceeds                 |          |
 # Criteria B: Design
 
 ## System Diagram 
