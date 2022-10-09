@@ -31,12 +31,11 @@ Justify the tools/structure of your solution
 
 # Criteria B: Design
 
-## System Diagram
+## System Diagram 
 ![](https://github.com/ZavenGaloyan/unit-1/blob/main/Untitled%20Diagram.jpg)
-## Flow Diagrams
-Password protection Flow Diagram
+## Flow Diagrams:Password protection Flow Diagram
 ![](https://github.com/ZavenGaloyan/unit-1/blob/main/PasswordFlowchart.jpg)
-Numerical validation Flow diagram
+## Flow Diagrams:Numerical validation Flow diagram
 ![](https://github.com/ZavenGaloyan/unit-1/blob/main/Transaction.jpg)
 
 ## Record of Tasks
