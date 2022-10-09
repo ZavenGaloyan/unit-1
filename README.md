@@ -66,4 +66,32 @@ Justify the tools/structure of your solution
 | 10       | Record the using of Program                                         | To show how the digital ledger actully works                    | 15min         | Oct 9                  | B         |
                     
 # Criteria C: Development
+## Specific techniques used
+Functions
+For and while loops
+Input Validation in various circumstances
+If/else statements
+Password encryption
+List Comprehension
+## Examples of when Techniques were used
+```.py
+#password validation
+print("Login below to begin :)")
 
+with open("Unit1_PROJECT_pass.csv") as file:
+    stored_data = file.readlines()
+    line1 = stored_data[0].split(":")
+    password = line1[1]
+    password = password.strip()
+
+
+pass_stat = False
+new_pass = input("Enter a password:")
+while not pass_stat:
+    if new_pass == password:
+        pass_stat = True
+    elif new_pass != password:
+         new_pass = input("Incorrect password try again:")
+```.py
+##hello
+ 
