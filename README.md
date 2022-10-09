@@ -33,11 +33,12 @@ Justify the tools/structure of your solution
 
 ## System Diagram 
 ![](https://github.com/ZavenGaloyan/unit-1/blob/main/Untitled%20Diagram.jpg)
-## Flow Diagrams:Password protection Flow Diagram
+## Flow Diagrams:Password protection
 ![](https://github.com/ZavenGaloyan/unit-1/blob/main/PasswordFlowchart.jpg)
-## Flow Diagrams:Numerical validation Flow diagram
+## Flow Diagrams:Numerical validation 
 ![](https://github.com/ZavenGaloyan/unit-1/blob/main/Transaction.jpg)
-
+## Flow Diagrams:Past Transaction with Validation
+![](https://github.com/ZavenGaloyan/unit-1/blob/main/Displaying_past_transactions.jpg)
 ## Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
