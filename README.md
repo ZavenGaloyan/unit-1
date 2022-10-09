@@ -31,11 +31,9 @@ Justify the tools/structure of your solution
 5. The electronic ledger should show (to be defined) statistisc some of which may be in a bar graph terminal format.
 6. The electronic ledger will have password to enter this 
 ## Record of Test Plan
-| Description | Type of test                                                                                                                                               | Inputs | outputs |
-|---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|
-         |
-|Login & Menu|Unit test|Run Python file
-Input correct password to login|If the inputed password matches what is stored in the password.csv file. It will move the user to the menu of options: if the passoword is incorrect it will allow another antempt to login|
+| Description | test type                                                |                                                                                                 | Inputs | Outputs | |
+|---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
+| Login & Menu       | Unit test                                         | Input correct password to login                        | If the inputed password matches what is stored in the password.csv file. It will move the user to the menu of options: if the passoword is incorrect it will allow another antempt to login        |                  |          |
 
 # Criteria B: Design
 
