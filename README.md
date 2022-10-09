@@ -14,9 +14,11 @@ Apart for this requirements, Ms Sato is open to explore a cryptocurrency selecte
 ## Proposed Solution
 
 Design statement:
-I will to design and make a electronic ledger for Ms. Sato. The dgital crypto ledger will use ETH or ethernium crypto currency and is constructed using the software Python . It will take a few weeks to make and will be evaluated according to the criteria listed below.
+I will to design and make a electronic ledger for Ms. Sato. The digital crypto ledger will use ETH or ethernium crypto currency and is constructed using the software Python . It will take a few weeks to make and will be evaluated according to the criteria listed below.
 
-** add a description of your coin and citation **
+Eth or etherium is a popular cryptocurrency in the modern crypto market. It is one of the leading technologies in Defi or decentralized finance. 
+Its speed for transactions, Dis-inflationary supply, and scalability to various aspects in fiance and tech make it so wanted
+https://ethereum.org/en/
 
 
 Justify the tools/structure of your solution
@@ -55,3 +57,5 @@ Justify the tools/structure of your solution
 | 11       | Create Success Criteria                                         | To have a clear idea of what is needed for to have a successful project                        | 10min         | Sep 24                 | B         |
 | 12       | Create Success Criteria                                         | To have a clear idea of what is needed for to have a successful project                        | 10min         | Sep 24                 | B         |
 | 13       | Create Success Criteria                                         | To have a clear idea of what is needed for to have a successful project                        | 10min         | Sep 24                 | B         |
+# Criteria C: Development
+
