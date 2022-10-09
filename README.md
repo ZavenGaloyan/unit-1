@@ -67,10 +67,9 @@ Justify the tools/structure of your solution
                     
 # Criteria C: Development
 ## Specific techniques used
-Functions
 For and while loops
 Input Validation in various circumstances
-If/else statements
+If/with/else statements
 Password encryption
 List Comprehension
 ## Examples of when Techniques were used
@@ -93,6 +92,119 @@ while not pass_stat:
     elif new_pass != password:
          new_pass = input("Incorrect password try again:")
 ```
-hello
+The code above validates a inputed password with that of the one stored in a csv file to see whether the passord is correct or not. The following uses Input Validation in various circumstances,If/with/else statements,List Comprehension, Password encryption
+```.py
+if option == 2:
+
+    transact = "Enter option [1-2]:"
+    Transaction_menu = (""" 
+TYPE 1 TO ENTER TRANSACTION
+TYPE 2 TO withdraw TRANSACTION
+    """)
+    print(Transaction_menu)
+    option1 = validate_int_input(transact)
+    while option1 > 2 or option1 < 1:
+        option1 = validate_int_input(f"Invalid option. Please enter one of the following integers[1-2]:{transact}")
+
+    value = 0
+    if option1 == 1:
+        transact_date = ("Enter the date and value from a transaction in the following format month/day/year ")
+        print(transact_date)
+        transactadd = input("Enter the date:")
+        month_day_year = transactadd.split('/')
+        month = int(month_day_year[0])
+        day = int(month_day_year[1])
+        year = int(month_day_year[2])
+
+        if month == 1 or month == 3 or month == 5 or month == 7 or month == 8 or month == 10:
+            maximum_days = 31
+        elif month == 4 or month == 6 or month == 9 or month==11:
+            maximum_days = 30
+        else:
+            maximum_days = 28
+
+        while month<1 or month>12:
+            print("entered date is invalid or out of range")
+            print("check the range of the month")
+            input("Enter the date:")
+            break
+        while day<1 or day>maximum_days:
+            print("entered day is invalid or out of range")
+            transactadd = input("Enter the date:")
+            break
+        while year<2000 and year<2100:
+            print("entered year is invalid or out of range")
+            transactadd = input("Enter the date:")
+            break
+
+
+        transact_value1 = input("Enter the value of the transaction:")
+        while not transact_value1.isdigit():
+             transact_value1 = input("Error Please enter a postaive integer:")
+
+        Dates_1 = transactadd
+        value += int(transact_value1)
+        with open ("Unit1_PROJECT_DATA.csv", "a") as file:
+            file.write(f"{Dates_1}:{value}:ETH\n")
+
+
+    if option1 == 2:
+        print("Enter the date and value to withdraw from a transaction in the following format month/day/year ")
+        transactadd = input("Enter date:")
+        month_day_year = transactadd.split('/')
+        month = int(month_day_year[0])
+        day = int(month_day_year[1])
+        year = int(month_day_year[2])
+
+        if month == 1 or month == 3 or month == 5 or month == 7 or month == 8 or month == 10:
+            maximum_days = 31
+        elif month == 4 or month == 6 or month == 9 or month==11:
+            maximum_days = 30
+        else:
+            maximum_days = 28
+
+        while month<1 or month>12:
+            print("entered date is invalid or out of range")
+            print("check the range of the month")
+            input("Enter the date:")
+            break
+        while day<1 or day>maximum_days:
+            print("entered day is invalid or out of range")
+            transactadd = input("Enter the date:")
+            break
+        while year<2000 and year<2100:
+            print("entered year is invalid or out of range")
+            transactadd = input("Enter the date:")
+            break
+
+
+        transact_value2 = input("Enter the value of the transaction:")
+        while not transact_value2.isdigit():
+             transact_value2 = input("Error Please enter a positive integer:")
+
+        Dates_1 = transactadd
+        value -= int(transact_value2)
+        with open ("Unit1_PROJECT_DATA.csv", "a") as file:
+            file.write(f"{Dates_1}:{value}:ETH\n")
+```
+Above is the functions that enters and withdraws transactions from and to a csv file. It contains Input Validation in various circumstances,If/with/else statements,and List Comprehension
+```.py
+Month/day/year:total amount
+10/6/2022:100:ETH
+10/6/2022:-100:ETH
+10/6/2022:100:ETH
+10/6/2022:50:ETH
+10/6/2022:100:ETH
+10/6/2022:12:ETH
+10/02/2022:1234:ETH
+08/25/2022:200:ETH
+10/9/2022:0:ETH
+10/9/2022:100:ETH
+10/32/2022:100:ETH
+10/9/2022:100:ETH
+10/10/2022:-150:ETH
+13/10/2022:-150:ETH
+```
+Above is the format of the csv file. It contains the day and value in ETH that has either been withdrawn or entered
 
  
