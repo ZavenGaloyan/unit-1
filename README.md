@@ -33,7 +33,7 @@ Justify the tools/structure of your solution
 ## Record of Test Plan
 | Description | test type                                                |                                                                                                 | Inputs | Outputs | |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
-| Login & Menu       | Unit test                                         | Input correct password to login                        | If the inputed password matches what is stored in the password.csv file. It will move the user to the menu of options: if the passoword is incorrect it will allow another antempt to login        |                  |          |
+| Login & Menu       | Unit test                                         |                         | Input correct password to login        |If the inputed password matches what is stored in the password.csv file. It will move the user to the menu of options: if the passoword is incorrect it will allow another antempt to login                  |          |
 
 # Criteria B: Design
 
