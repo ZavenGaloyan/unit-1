@@ -34,7 +34,10 @@ Justify the tools/structure of your solution
 ## System Diagram
 ![](https://github.com/ZavenGaloyan/unit-1/blob/main/Untitled%20Diagram.jpg)
 ## Flow Diagrams
+Password protection Flow Diagram
 ![](https://github.com/ZavenGaloyan/unit-1/blob/main/PasswordFlowchart.jpg)
+Numerical validation Flow diagram
+![](https://github.com/ZavenGaloyan/unit-1/blob/main/Transaction.jpg)
 
 ## Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
