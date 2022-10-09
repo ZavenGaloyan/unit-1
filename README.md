@@ -54,6 +54,6 @@ Justify the tools/structure of your solution
 | 8       |Make Systems diagram                                        | To show how the digital ledger was made and functions on the computer in the form of a system diagram                        | 10min         | Oct 8                 | B         |
 | 9       | Creating Flow diagrams                                         | To show how certain functions in the code work in the form of a flow chart                       | 1 hr min         | Oct 9                  | B         |
 | 10       | Record the using of Program                                         | To show how the digital ledger actully works                    | 15min         | Oct 9                  | B         |
-                       | 10min         | Oct 9                 | B         |
+                    
 # Criteria C: Development
 
