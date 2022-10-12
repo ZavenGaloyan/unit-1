@@ -1,7 +1,7 @@
 Task was to create a program for an EV calculator. A given set of data was provided and parameters for calcuations that were needed to be completed
 Below is the data and code for the Program
 
-Date,Charge,Duration
+Date,Charge,Duration                                                                                                                                                   .
 12.9.22,8.878kWh,12:32:36
 15.9.22,3.533kWh,5:02:23
 17.9.22,6.828kWh,9:41:46
