@@ -69,3 +69,6 @@ if option == 3:
           index += 1
 
     print(f"{green}The total energy charged is {total_time1}:{total_time2}:{total_time3}")
+```
+Evidence for Code
+![](https://github.com/ZavenGaloyan/unit-1/blob/main/Lessons/TASK2_Evidence.jpg)
